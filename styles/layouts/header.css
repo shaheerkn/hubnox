@@ -1,0 +1,38 @@
+header {
+  background-color: var(--color-primary);
+  color: #fff;
+  padding-block: 24px;
+
+  * {
+    color: inherit;
+  }
+
+  .container {
+    justify-content: space-between;
+
+    @media (max-width: 1024px) {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  }
+
+  nav {
+    gap: 40px;
+
+    a {
+      font-size: 16px;
+      font-weight: 400;
+      text-decoration: none;
+      transition: color 0.3s ease-in-out;
+
+      &:hover {
+        color: var(--color-secondary);
+      }
+    }
+
+    @media (max-width: 1024px) {
+      order: 3;
+      margin-inline: auto;
+    }
+  }
+}

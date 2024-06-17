@@ -1,0 +1,37 @@
+.features {
+  background-color: var(--color-section-bg);
+
+  &__desc {
+    max-width: 760px;
+    color: #D0D5DD;
+    margin-top: 16px;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 23px;
+    margin-top: 40px;
+
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__card {
+    background-color: var(--color-cards-bg);
+    padding: 24px;
+    border-radius: 12px;
+
+    p {
+      color: #D0D5DD;
+      margin-top: 8px;
+    }
+  }
+
+  &__icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 24px;
+  }
+}

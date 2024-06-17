@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #121536;
+  --color-secondary: #EE46BC;
+  --color-background: rgba(27, 35, 52, 1);
+  --color-white: #FFFFFFFF;
+  --color-button: #3C5BFF;
+  --color-cards-bg: #39405A;
+  --color-section-bg: #1B2334;
+  --color-section-bg-2: #131538;
+  
+  --font-headings: "Epilogue", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+}

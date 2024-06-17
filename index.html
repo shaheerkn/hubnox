@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Hubnox</title>
+  </head>
+  <body>
+    <header>
+      <div class="container flex align-center">
+        <a href="#">
+          <img src="/assets/images/logo-main.svg" alt="" srcset="">
+        </a>
+
+        <nav class="flex">
+          <a href="#">Events</a>
+          <a href="#">Creators</a>
+          <a href="#">Create event</a>
+          <a href="#">About us</a>
+        </nav>
+
+        <a href="#" class="btn">Become a member</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="h1">Embrace the beauty <br> of collaboration and inspiring events</h1>
+          <p class="lg-text">Join our community, visit events and shine as a beauty industry creator</p>
+          <a href="#" class="btn">Get the app</a>
+        </div>
+      </section>
+
+      <section class="profiles section-padding-lg profiles--events">
+        <div class="container">
+          <div class="section-header section-header--controls">
+            <div class="section-header__content">
+              <h2 class="h2">Upcoming events</h2>
+              <p>Here are some upcoming events from our creators.</p>
+            </div>
+
+            <div class="slider-controls">
+              <button class="slide-btn slider-prev-btn">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16.0003 29.3334C23.3641 29.3334 29.3337 23.3639 29.3337 16.0001C29.3337 8.63628 23.3641 2.66675 16.0003 2.66675C8.63653 2.66675 2.66699 8.63628 2.66699 16.0001C2.66699 23.3639 8.63653 29.3334 16.0003 29.3334Z" stroke="#98A2B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M16.0003 10.6667L10.667 16.0001L16.0003 21.3334" stroke="#98A2B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M21.3337 16H10.667" stroke="#98A2B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+
+              <div class="swiper-pagination coming-events-pagination"></div>
+
+              <button class="slide-btn slider-next-btn">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.9997 2.66658C8.63588 2.66658 2.66634 8.63612 2.66634 15.9999C2.66634 23.3637 8.63588 29.3333 15.9997 29.3333C23.3635 29.3333 29.333 23.3637 29.333 15.9999C29.333 8.63612 23.3635 2.66658 15.9997 2.66658Z" stroke="#EE46BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M15.9997 21.3333L21.333 15.9999L15.9997 10.6666" stroke="#EE46BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M10.6663 16L21.333 16" stroke="#EE46BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="swiper coming-events">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide profiles__card">
+                <div class="profiles__img">
+                  <img src="/assets/images/event-1.webp" alt="" srcset="">
+                </div>
+                <h5 class="h5">20 Jan, 2024</h5>
+                <h3 class="h3">Barber Expo London 2023</h3>
+                <p>Embrace the world of barbering, the UK's premier event for barbers and industry professionals.</p>
+                <div class="flex justify-content-between align-center profiles__info">
+                  <div class="profiles__name">
+                    <div class="profiles__name-img">
+                      <img src="/assets/images/avatar.png" alt="" srcset="">
+                    </div>
+                    <h4 class="h4">Olivia Doe</h4>
+                  </div>
+
+                  <a href="#">
+                    <span>
+                      See event
+                    </span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5 12H19" stroke="#EE46BC " stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M12 5L19 12L12 19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              
+              <div class="swiper-slide profiles__card">
+                <div class="profiles__img">
+                  <img src="/assets/images/event-2.webp" alt="" srcset="">
+                </div>
+                <h5 class="h5">20 Jan, 2024</h5>
+                <h3 class="h3">Barber Expo London 2023</h3>
+                <p>Embrace the world of barbering, the UK's premier event for barbers and industry professionals.</p>
+
+                <div class="flex justify-content-between align-center profiles__info">
+                  <div class="profiles__name">
+                    <div class="profiles__name-img">
+                      <img src="/assets/images/event-3.webp" alt="" srcset="">
+                    </div>
+                    <h4 class="h4">Olivia Doe</h4>
+                  </div>
+
+                  <a href="#">
+                    <span>
+                      See event
+                    </span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5 12H19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M12 5L19 12L12 19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide profiles__card">
+                <div class="profiles__img">
+                  <img src="/assets/images/profile-1.webp" alt="" srcset="">
+                </div>
+                <h5 class="h5">20 Jan, 2024</h5>
+                <h3 class="h3">Barber Expo London 2023</h3>
+                <p>Embrace the world of barbering, the UK's premier event for barbers and industry professionals.</p>
+                <div class="flex justify-content-between align-center profiles__info">
+                  <div class="profiles__name">
+                    <div class="profiles__name-img">
+                      <img src="/assets/images/avatar.png" alt="" srcset="">
+                    </div>
+                    <h4 class="h4">Olivia Doe</h4>
+                  </div>
+
+                  <a href="#">
+                   <span>
+                      See event
+                    </span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5 12H19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M12 5L19 12L12 19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide profiles__card">
+                <div class="profiles__img">
+                  <img src="/assets/images/profile-1.webp" alt="" srcset="">
+                </div>
+                <h5 class="h5">20 Jan, 2024</h5>
+                <h3 class="h3">Barber Expo London 2023</h3>
+                <p>Embrace the world of barbering, the UK's premier event for barbers and industry professionals.</p>
+                <div class="flex justify-content-between align-center profiles__info">
+                  <div class="profiles__name">
+                    <div class="profiles__name-img">
+                      <img src="/assets/images/avatar.png" alt="" srcset="">
+                    </div>
+                    <h4 class="h4">Olivia Doe</h4>
+                  </div>
+
+                  <a href="#">
+                    <span>
+                      See event
+                    </span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5 12H19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M12 5L19 12L12 19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features section-padding-md">
+        <div class="container">
+          <h2 class="h2">We are the hub for high-quality <span>verified</span> events </h2>
+          <p class="features__desc lg-text">We are a powerful community of people who love what they do, constantly  pushing the boundaries of what is possible and inspiring others to do the same!</p>
+          <div class="features__wrapper">
+            <div class="features__card">
+              <div class="features__icon">
+                <img src="/assets/icons/icon-feature-1.svg" alt="feature-icon">
+              </div>
+              <h4 class="h4">Join the elite</h4>
+              <p>By becoming a member, you will become a part of an exclusive community and will have an access to events of life-changing power.</p>
+            </div>
+            <div class="features__card">
+              <div class="features__icon">
+                <img src="/assets/icons/icon-feature-2.svg" alt="feature-icon">
+              </div>
+              <h4 class="h4">Enjoy the variety</h4>
+              <p>By becoming a member, you will become a part of an exclusive community and will have an access to events of life-changing power.</p>
+            </div>
+            <div class="features__card">
+              <div class="features__icon">
+                <img src="/assets/icons/icon-feature-3.svg" alt="feature-icon">
+              </div>
+              <h4 class="h4">Network, learn and glow</h4>
+              <p>By becoming a member, you will become a part of an exclusive community and will have an access to events of life-changing power.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="profiles section-padding-lg profiles--creator">
+        <div class="container">
+          <div class="section-header section-header--controls">
+            <div class="section-header__content">
+              <h2 class="h2">Creators that create events with us</h2>
+              <p>We are a powerful community of people who love what they do,  constantly pushing the boundaries of what is possible and inspiring others to do the same!</p>
+            </div>
+
+            <div class="slider-controls">
+              <button class="slide-btn slider-prev-btn">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16.0003 29.3334C23.3641 29.3334 29.3337 23.3639 29.3337 16.0001C29.3337 8.63628 23.3641 2.66675 16.0003 2.66675C8.63653 2.66675 2.66699 8.63628 2.66699 16.0001C2.66699 23.3639 8.63653 29.3334 16.0003 29.3334Z" stroke="#98A2B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M16.0003 10.6667L10.667 16.0001L16.0003 21.3334" stroke="#98A2B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M21.3337 16H10.667" stroke="#98A2B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+
+              <div class="swiper-pagination coming-events-creator-pagination"></div>
+
+              <button class="slide-btn slider-next-btn">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.9997 2.66658C8.63588 2.66658 2.66634 8.63612 2.66634 15.9999C2.66634 23.3637 8.63588 29.3333 15.9997 29.3333C23.3635 29.3333 29.333 23.3637 29.333 15.9999C29.333 8.63612 23.3635 2.66658 15.9997 2.66658Z" stroke="#EE46BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M15.9997 21.3333L21.333 15.9999L15.9997 10.6666" stroke="#EE46BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M10.6663 16L21.333 16" stroke="#EE46BC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="swiper coming-events-creator">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide profiles__card">
+                <div class="profiles__img">
+                  <img src="/assets/images/creators-1.webp" alt="" srcset="">
+                </div>
+                <h3 class="h3">Olivia Doe</h3>
+                <p>Professional beauty creator with years of experience in fashion industry.</p>
+                <a href="#">
+                  See creators events
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 12H19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 5L19 12L12 19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </div>
+
+              <div class="swiper-slide profiles__card">
+                <div class="profiles__img">
+                  <img src="/assets/images/creator-2.webp" alt="" srcset="">
+                </div>
+                <h3 class="h3">Jane Parker</h3>
+                <p>Professional beauty creator with years of experience in fashion industry.</p>
+                <a href="#">
+                  See creators events
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 12H19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 5L19 12L12 19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </div>
+
+              <div class="swiper-slide profiles__card">
+                <div class="profiles__img">
+                  <img src="/assets/images/creator-3.webp" alt="" srcset="">
+                </div>
+                <h3 class="h3">Anna Watson</h3>
+                <p>Professional beauty creator with years of experience in fashion industry.</p>
+                <a href="#">
+                  See creators events
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 12H19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 5L19 12L12 19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </div>
+
+              <div class="swiper-slide profiles__card">
+                <div class="profiles__img">
+                  <img src="/assets/images/creator-2.webp" alt="" srcset="">
+                </div>
+                <h3 class="h3">Olivia Doe</h3>
+                <p>Professional beauty creator with years of experience in fashion industry.</p>
+                <a href="#">
+                  See creators events
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 12H19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 5L19 12L12 19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="img-w-text section-padding-md">
+        <div class="container">
+          <div class="img-w-text__img">
+            <img src="/assets/images/img-w-text.webp" alt="img-w-text" srcset="">
+          </div>
+          <div class="img-w-text__text">
+            <h2 class="h2">Join <span>Hubnox</span> for events that will change your life!</h2>
+            <p class="medium-text">By becoming a member, you become a part of an exclusive community of creators and will have an access to events of  life-changing power. </p>
+            <a href="#" class="btn">Get the app</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="creator section-padding-md">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-header__content">
+              <h2 class="h2">Create your event with Hubnox!</h2>
+              <p>We are a powerful community of people who love what they do, constantly pushing the boundaries of what is possible and inspiring others to do the same!</p>
+            </div>
+
+            <a href="#" class="btn">Become a creator</a>
+          </div>
+
+          <div class="creator__wrapper">
+            <div class="creator__feat creator__feat--large">
+              <div class="creator__icon">
+                <img src="/assets/icons/icon-orange.svg" alt="" srcset="">
+              </div>
+              <h3 class="h3">Join the elite</h3>
+              <p>Hopnox is the ultimate destination for exclusive and bespoke <br> beauty and hair experiences.</p>
+            </div>
+
+            <div class="creator__feat">
+              <div class="creator__icon">
+                <img src="/assets/icons/icon-blue.svg" alt="" srcset="">
+              </div>
+              <h3 class="h3">Like-minded people</h3>
+              <p>Hopnox is the ultimate destination for exclusive and bespoke beauty and hair experiences.</p>
+            </div>
+          </div>
+
+          <div class="creator__wrapper">
+            <div class="creator__feat">
+              <div class="creator__icon">
+                <img src="/assets/icons/icon-blue.svg" alt="" srcset="">
+              </div>
+              <h3 class="h3">Business growth</h3>
+              <p>Hopnox is the ultimate destination for exclusive and bespoke beauty and hair experiences.</p>
+            </div>
+
+            <div class="creator__feat creator__feat--large">
+              <div class="creator__icon">
+                <img src="/assets/icons/icon-orange.svg" alt="" srcset="">
+              </div>
+              <h3 class="h3">It's easy</h3>
+              <p>Hopnox is the ultimate destination for exclusive and bespoke <br> beauty and hair experiences.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="profiles section-padding-md">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-header__content">
+              <h2 class="h2">Who we are?</h2>
+              <p>We are a powerful community of people who love what they do, constantly pushing the boundaries of what is possible and inspiring others to do the same!</p>
+            </div>
+
+            <a href="#" class="btn">Become a creator</a>
+          </div>
+
+          <div class="profiles__wrapper">
+            <div class="profiles__card">
+              <div class="profiles__img">
+                <img src="/assets/images/profile-1.webp" alt="" srcset="">
+              </div>
+              <h3>Wojtek</h3>
+              <p>Technology</p>
+              <a href="#">
+                See profile
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 12H19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 5L19 12L12 19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+
+            <div class="profiles__card">
+              <div class="profiles__img">
+                <img src="/assets/images/profile-2.webp" alt="" srcset="">
+              </div>
+              <h3>Wojtek</h3>
+              <p>Technology</p>
+              <a href="#">
+                See profile
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 12H19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 5L19 12L12 19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+
+            <div class="profiles__card">
+              <div class="profiles__img">
+                <img src="/assets/images/profile-3.webp" alt="" srcset="">
+              </div>
+              <h3>Wojtek</h3>
+              <p>Technology</p>
+              <a href="#">
+                See profile
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 12H19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 5L19 12L12 19" stroke="#EE46BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="app">
+        <div class="container">
+          <div class="app__img">
+            <img src="/assets/images/mobile.png" alt="" srcset="">
+          </div>
+          <div>
+            <h2 class="h2">Download <span>Hubnox</span> app and explore a diverse range of beauty events!</h2>
+            <p>Scan the QR code with your phone camera or download the app on the App Store. </p>
+            <a href="#" class="app__cta">
+              <img src="/assets/images/download-icon.jpg" alt="" srcset="">
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section-padding-sm ">
+      <div class="container">
+        <div>
+          <a href="#" class="brand">
+            <img src="/assets/images/logo-main.svg" alt="" srcset="">
+          </a>
+            <p>Follow us on social media</p>
+
+            <div class="social-links">
+              <a href="#"><img src="/assets/icons/icon-insta.svg" alt="" srcset=""></a>
+              <a href="#"><img src="/assets/icons/icon-linkedin.svg" alt="" srcset=""></a>
+              <a href="#"><img src="/assets/icons/icon-facebook.svg" alt="" srcset=""></a>
+              <a href="#"><img src="/assets/icons/icon-x.svg" alt="" srcset=""></a>
+              <a href="#"><img src="/assets/icons/icon-behance.svg" alt="" srcset=""></a>
+            </div>
+          </a>
+        </div>
+
+        <div>
+          <nav>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms of use</a>
+            <a href="#">Creator agreement</a>
+          </nav>
+        </div>
+
+        <div class="newsletter">
+          <h4 class="h4">Subscribe to our newsletter</h4>
+          <p>Subscribe to our daily newsletter to receive news and promos about our platform.</p>
+          <form>
+            <input type="text" placeholder="Enter your email address">
+            <button class="btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="container copyright">
+        <p>Hopnox 2024</p>
+        <p>Copyright @2024</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

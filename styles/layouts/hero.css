@@ -1,0 +1,24 @@
+.hero {
+  background-image: url('../../assets/images/background-hero.webp');
+  padding-block: 230px 209px;
+  background-size: cover;
+
+  @media (max-width: 1000px) {
+    padding-block: 100px;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1011px;
+    margin-inline: auto;
+    text-align: center;
+
+    h1 {
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin-bottom: 32px;
+    }
+  }
+}

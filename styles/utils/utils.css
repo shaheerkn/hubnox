@@ -1,0 +1,120 @@
+.flex { display: flex; }
+.flex-wrap { flex-wrap: wrap; }
+.flex-no-wrap { flex-wrap: nowrap; }
+
+.align-start { align-items: flex-start; }
+.align-end { align-items: flex-end }
+.align-center { align-items: center; }
+
+.justify-content-center { justify-content: center; }
+.justify-content-between { justify-content: space-between; }
+.justify-content-start { justify-content: flex-start; }
+
+.flex-direction-column { flex-direction: column; }
+.flex-direction-row-reverse { flex-direction: row-reverse; }
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-justify { text-align: justify; }
+
+.relative { position: relative; }
+.absolute { position: absolute; }
+
+.flex-vertically-center {
+  display: flex;
+  align-items: center;
+}
+
+.text-decoration-none { text-decoration: none; }
+.d-none { display: none; }
+
+.section-padding-lg {
+  padding-block: 100px;
+
+  @media (max-width: 768px) {
+    padding-block: 80px;
+  }
+}
+
+.section-padding-md { 
+  padding-block: 80px;
+  
+  @media (max-width: 768px) {
+    padding-block: 60px;
+  }
+}
+.section-padding-sm { 
+  padding-block: 60px;
+
+  @media (max-width: 768px) {
+    padding-block: 40px;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1266px;
+  margin-inline: auto;
+  padding-inline: 25px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  &.section-header--controls {
+    align-items: flex-end;
+  }
+
+  &__content {
+    width: 100%;
+    max-width: 800px;
+
+    .h2 {
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 20px;
+      color: #D0D5DD;
+    }
+  }
+}
+
+.slider-controls {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  width: ;
+}
+
+.slide-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+
+  svg path {
+    stroke: #EE46BC;
+  }
+
+  &[disabled] path {
+    stroke: #98A2B3;
+  }
+}
+
+.swiper-pagination {
+  position: static;
+  width: auto;
+}

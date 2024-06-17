@@ -1,0 +1,20 @@
+@import 'fonts';
+@import 'headings';
+
+body {
+  font-family: var(--font-body);
+  color: #fff;
+}
+
+
+.capitalize { text-transform: capitalize; }
+.uppercase { text-transform: uppercase; }
+
+.small-text { font-size: 14px; }
+.base-text { font-size: 16px; }
+.medium-text { font-size: 18px; font-weight: 400; }
+.lg-text { font-size: 20px; }
+
+b, strong, .bold { font-family: var(--font-headings); }
+
+blockquote cite { font-family: var(--font-headings); font-style: normal; }

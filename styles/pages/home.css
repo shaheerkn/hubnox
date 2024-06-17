@@ -1,0 +1,8 @@
+@import '../layouts/header';
+@import '../layouts/hero';
+@import '../layouts/features';
+@import '../layouts/img-w-text';
+@import '../layouts/app';
+@import '../layouts/creator';
+@import '../layouts/profiles';
+@import '../layouts/footer';

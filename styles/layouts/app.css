@@ -1,0 +1,53 @@
+.app {
+  background-color: var(--color-section-bg-2);
+  padding-top: 36px;
+
+  .container {
+    display: grid;
+    grid-template-columns: 530px 1fr;
+    gap: 87px;
+    align-items: center;
+
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr;
+    }
+
+    .h2 {
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      color: #D0D5DD;
+    }
+
+    .btn {
+      margin-top: 32px;
+    }
+  }
+
+  &__img {
+    border-radius: 8px;
+    overflow: hidden;
+
+    img {
+      max-width: 100%;
+    }
+
+    @media (max-width: 900px) {
+      grid-row-start: 2;
+    }
+  }
+
+  &__cta {
+    margin-top: 26px;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 180px;
+
+    img {
+      width: 100%;
+    }
+  }
+}

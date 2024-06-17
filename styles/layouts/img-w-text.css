@@ -1,0 +1,40 @@
+.img-w-text {
+  background-color: var(--color-section-bg-2);
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 517px;
+    gap: 64px;
+    align-items: center;
+
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr;
+    }
+
+    .h2 {
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      color: #D0D5DD;
+    }
+
+    .btn {
+      margin-top: 32px;
+    }
+  }
+
+  &__img {
+    border-radius: 8px;
+    overflow: hidden;
+
+    img {
+      max-width: 100%;
+    }
+
+    @media (max-width: 900px) {
+      grid-row-start: 2;
+    }
+  }
+}
